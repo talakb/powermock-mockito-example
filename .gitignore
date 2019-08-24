@@ -1,0 +1,14 @@
+#IDE generated files and resources
+*.project
+*.classpath
+.classpath
+**/bin
+**/.settings
+/.settings
+.settings
+**/target
+*.class
+*.jar
+*.war
+*.ear
+*.MF
