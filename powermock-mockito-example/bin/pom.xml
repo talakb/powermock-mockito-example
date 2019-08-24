@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>jcpenny</groupId>
+		<artifactId>jcpenny-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>jcpenny-data</artifactId>
+	<name>jcpenny-data</name>
+	<packaging>jar</packaging>
+
+	<properties>
+		<org.hibernate.version>1.0.2.Final</org.hibernate.version>
+	</properties>
+
+	<dependencies>
+		<!-- JDBC/JPA -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>${org.hibernate.version}</version>
+		</dependency>
+		<!--END JDBC/JPA -->
+
+		<!-- Jackson XML/CSV Utils -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-csv</artifactId>
+			<version>1.3</version>
+		</dependency>
+
+
+		<!-- Jackson XML/CSV Utils -->
+	</dependencies>
+</project>
