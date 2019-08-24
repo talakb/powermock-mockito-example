@@ -24,13 +24,6 @@ public class CsvImporter {
   public static final String PASS = "***";
 
   public static void main(String... args) throws Exception {
-    // params: csvFileLocation
-    // table name
-    // columns
-    // String filePath = args[0];
-    // String tableName = args[1];
-    // List<String> columns = getColumnsList(args);
-
 
     Connection conn = null;
     PreparedStatement stmt = null;
