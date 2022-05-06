@@ -1,2 +1,2 @@
 # powermock-mockito-example
-Unit test example using PowerMock and Mockito in JDBC call.
+Unit test examples using PowerMock and Mockito in JDBC call
